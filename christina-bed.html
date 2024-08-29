@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Sidebar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top w-100">
+    <div class="container-fluid d-flex align-items-center">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/1516319693288.jpeg" alt="" class="img-fluid rounded-circle w-50 spin">
+          </a>
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-none">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Michael
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="michael-picks.html">Dental Soft Picks</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Christina
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <li><a class="dropdown-item" href="christina-bed.html">Scandinavian Duvet Method</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="sidebar mt-5">
+    <ul class="navbar-nav ps-3 pt-3">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Michael</a>
+        <ul class="list-unstyled ms-3">
+          <li><a class="nav-link" href="michael-picks.html">Dental Soft Picks</a></li>
+          <li><a class="nav-link" href="#"></a></li>
+          <li><a class="nav-link" href="#"></a></li>
+          <li><hr class="dropdown-divider"></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Christina</a>
+        <ul class="list-unstyled ms-3">
+          <li><a class="nav-link" href="christina-bed.html">Scandinavian Duvet Method</a></li>
+          <li><a class="nav-link" href="#"></a></li>
+          <li><a class="nav-link" href="#"></a></li>
+          <li><hr class="dropdown-divider"></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="content pt-5">
+    <div class="row pt-5">
+      <div class="col-md-8 order-md-1 order-2 pt-5">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title w-100 pb-1">How to make your husbands morning</h1>
+            <hr class="my-4">
+            <h2>Step 1: Wake Up with a Scream</h2>
+            <p class="card-text pb-3">Start your day with a big, obnoxious scream to scare away any lingering sleep demons. Scandinavians believe this helps them feel refreshed and ready to take on the day. Just make sure your husband is already awake.</p>
+            <h2>Step 2: Stare Intensely at the Wall</h2>
+            <p class="card-text pb-3">For the next 10 minutes, sit on the edge of your bed and stare at the nearest wall. Don't blink, don't move, just channel your inner Viking and let the wall feel your gaze of pure concentration. This helps you mentally prepare for the challenges ahead.</p>
+            <h2>Step 3: Clear the Bed</h2>
+            <p class="card-text pb-3">First, you need to get rid of all that junk on your bed. Pillows? GONE! Blankets? ADIOS! That weird stuffed animal thing? SAYONARA! Scandinavians like their beds to be as bare as a newborn baby. 👶</p>
+            <h2>Step 4: Fold the Duvet, but Better</h2>
+            <p class="card-text pb-3">Fold the duvet into a perfect square and lay on it to ensure the corners are met with perfection, or go the extra mile and fold it into an intricate origami swan. Your Scandinavian ancestors will be so proud (and possibly very confused).</p>
+            <h2>Step 5: Add a Splash of Weirdo</h2>
+            <p class="card-text pb-3">Now, to really make your bed look "Scandinavian," you need to add a strange, random object. Could be a vase, could be a small figurine of a Viking. Heck, it could even be a live goldfish in a bowl! Whatever it is, it should make people say, "Uhh, what's that doing there?" 🤔</p>
+            <h2>Step 6: Admire Your Work</h2>
+            <p class="card-text pb-3">Finally, take a step back and admire your beautifully minimalist, yet utterly bizarre Scandinavian bed. Bask in the glory of your creation and know that you have truly embraced the essence of Scandinavian design. Now go forth with pride knowing you have already been more productive than your husband this morning.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 order-md-2 order-1 pt-5">
+        <div class="card">
+        <img src="img/christina/After_w_Coverlet_Close_Shot.webp" class="card-img-top w-200 p-3 d-block mx-auto" alt="...">
+          <div class="card-body">
+            <h4 class="card-title w-100">Scandinavian Duvet Method</h4>
+            <p class="card-text">The Scandinavian method involves using two separate duvets or comforters on a shared bed, rather than a single, larger duvet. Each person has their own personal duvet that they can adjust and use as they prefer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

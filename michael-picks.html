@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar with Sidebar</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top w-100">
+    <div class="container-fluid d-flex align-items-center">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/1516319693288.jpeg" alt="" class="img-fluid rounded-circle w-50 spin">
+      </a>
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-lg-none">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Michael
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="michael-picks.html">Dental Soft Picks</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Christina
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <li><a class="dropdown-item" href="christina-bed.html">Scandinavian Duvet Method</a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+              <li><a class="dropdown-item" href="#"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="sidebar mt-5">
+    <ul class="navbar-nav ps-3 pt-3">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Michael</a>
+        <ul class="list-unstyled ms-3">
+          <li><a class="nav-link" href="michael-picks.html">Dental Soft Picks</a></li>
+          <li><a class="nav-link" href="#"></a></li>
+          <li><a class="nav-link" href="#"></a></li>
+          <li><hr class="dropdown-divider"></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Christina</a>
+        <ul class="list-unstyled ms-3">
+          <li><a class="nav-link" href="christina-bed.html">Scandinavian Duvet Method</a></li>
+          <li><a class="nav-link" href="#"></a></li>
+          <li><a class="nav-link" href="#"></a></li>
+          <li><hr class="dropdown-divider"></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="content pt-5">
+    <div class="row pt-5">
+      <div class="col-md-8 order-md-1 order-2 pt-5">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title w-100 pb-1">How to keep your wife and nanny sane</h1>
+            <hr class="my-4">
+            <h2>Step 1: Unwrapping the Ephemeral Tooth-Picking Delight</h2>
+            <p class="card-text pb-3">Carefully remove the dental soft pick from its plastic packaging, marveling at its pristine, unused state. Savor this moment, for it shall be the only time you ever use this pick.</p>
+            <h2>Step 2: Dramatic Dental Dislodging with Maximum Auditory Flair</h2>
+            <p class="card-text pb-3">Gingerly insert the pick between your teeth, waggling it around dramatically to really get in there and dislodge any pesky food particles. Make exaggerated "oooh" and "ahhh" sounds to heighten the experience.</p>
+            <h2>Step 3: Bidding Farewell to Your Plastic Tooth-Picking Partner</h2>
+            <p class="card-text pb-3">Once satisfied that you've picked your teeth to perfection, promptly throw the pick in the trash, taking care to watch it land sadly at the bottom of the bin. Sigh heavily as you accept the fleeting nature of this dental adventure. Refrain from leaving them on top of commonly used locations, as these picks are biohazards. 😷</p>
+            <h2>Step 4: Repeat the Cycle of Dental Despair - Buy More Picks!</h2>
+            <p class="card-text pb-3">Repeat this process with a fresh pick every time, because heaven forbid you ever try to reuse one of these things. The trash deserves your money!</p>
+            <hr class="dropdown-divider">
+            <p class="card-text pb-3">There you have it - the complete lifecycle of the humble dental soft pick, as meaningless and disappointing as life itself. Enjoy!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 order-md-2 order-1 pt-5">
+        <div class="card">
+        <img src="img/michael/GUM-Soft-Picks-Original-Dentist-Recommended-Dental-Picks-50ct-Count_638de46e-e8a5-40a3-8bcb-23f117c2eafb.53bd944db473555a2271a9cc6ae88470.webp" class="card-img-top w-200 p-3 d-block mx-auto" alt="...">
+          <div class="card-body">
+            <h4 class="card-title w-100">Dental Soft Picks</h4>
+            <p class="card-text">Dental soft picks are <strong>SINGLE-USE</strong> plastic toothpicks designed for quickly dislodging food from your teeth. You get to feel the fleeting satisfaction of picking your teeth with a fresh pick, before tossing it in the trash, never to be used again.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
